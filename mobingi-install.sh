@@ -1,8 +1,1 @@
-apt-get install nodejs npm
-npm install -g coffee-script hubot hubot-slack
-
-cp -r /var/www/html /root/scripts 
-
-echo "[program:hubot]" >> /etc/supervisor/conf.d/supervisord.conf
-echo "command=hubot --adapter slack" >> /etc/supervisor/conf.d/supervisord.conf
-echo "directory=/root" >> /etc/supervisor/conf.d/supervisord.conf
+my-install.sh 2 > /var/log/my-install-err.log 1 > my-install.log
