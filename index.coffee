@@ -4,7 +4,6 @@ module.exports = (robot) ->
     msg.send "hello!"
     msg.send "@#{msg.message.user.name}, foo bar."
     # reply使うとメッセージを送ったユーザーにリプライできるっぽい
-    msg.reply 'foooo'
 
   robot.hear /test/i, (msg) ->
     msg.send "test!"
