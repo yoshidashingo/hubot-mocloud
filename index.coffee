@@ -4,3 +4,6 @@ module.exports = (robot) ->
 
     robot.hear /test/i, (msg) ->
     msg.send "test!"
+
+    robot.hear /tired/i, (msg) ->
+    msg.send "元気出して！"
