@@ -1,5 +1,5 @@
-apt-get install nodejs npm
-npm install -y -g coffee-script hubot hubot-slack
+apt-get -y install nodejs npm
+npm -y install -g coffee-script hubot hubot-slack
 
 cp -r /var/www/html /root/scripts 
 
