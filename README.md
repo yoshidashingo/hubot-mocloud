@@ -8,7 +8,7 @@
 ## 2. Fork This Repository to your own
 
 ## 3. Launch Container
-- Launch `Procfile Aoos` Container on moCloud Console.
+- Launch `Procfile Apps` Container on moCloud Console.
 
 ## 4. Go to Slack and get API Token
 - go to `https://slack.com/apps/A0F7XDU93-hubot`
